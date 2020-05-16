@@ -1,0 +1,106 @@
+Initial data:
+  Hermes Ferragamo LV Givenchy Balenciaga Chanel Gucci Cartier YSL Fendi Dior Burberry $$ 
+Tree Inorder:
+Balenciaga Burberry Cartier Chanel Dior Fendi Ferragamo Givenchy Gucci Hermes LV YSL 
+                YSL
+            LV
+        Hermes
+                    Gucci
+                Givenchy
+            Ferragamo
+                        Fendi
+                            Dior
+                    Chanel
+                        Cartier
+                            Burberry
+                Balenciaga
+Retrieve --> Hermes:  found
+Retrieve --> Givenchy:  found
+Retrieve --> AP:  not found
+Height    --> Hermes:  6
+Height    --> Givenchy:  2
+Height    --> AP:  0
+Height    --> LV:  2
+Height    --> Ferrari:  0
+Height    --> McLaren:  0
+Height    --> Cartier:  2
+T == T2?     equal
+T != first?  equal
+T == dup?    equal
+                    YSL
+                LV
+                    Hermes
+            Gucci
+                    Givenchy
+                Ferragamo
+        Fendi
+                    Dior
+                Chanel
+            Cartier
+                    Burberry
+                Balenciaga
+---------------------------------------------------------------
+Initial data:
+  Ferrari McLaren Maserati Porsche Lambo Bentley Rolls Bugatti $$ 
+Tree Inorder:
+Bentley Bugatti Ferrari Lambo Maserati McLaren Porsche Rolls 
+                    Rolls
+                Porsche
+            McLaren
+                Maserati
+                    Lambo
+        Ferrari
+                Bugatti
+            Bentley
+Retrieve --> Hermes:  not found
+Retrieve --> Givenchy:  not found
+Retrieve --> AP:  not found
+Height    --> Hermes:  0
+Height    --> Givenchy:  0
+Height    --> AP:  0
+Height    --> LV:  0
+Height    --> Ferrari:  4
+Height    --> McLaren:  3
+Height    --> Cartier:  0
+T == T2?     equal
+T != first?  not equal
+T == dup?    not equal
+                    Rolls
+                Porsche
+            McLaren
+                Maserati
+        Lambo
+                Ferrari
+            Bugatti
+                Bentley
+---------------------------------------------------------------
+Initial data:
+  Rolex Omega AP Patek Cartier $$ 
+Tree Inorder:
+AP Cartier Omega Patek Rolex 
+        Rolex
+                Patek
+            Omega
+                    Cartier
+                AP
+Retrieve --> Hermes:  not found
+Retrieve --> Givenchy:  not found
+Retrieve --> AP:  found
+Height    --> Hermes:  0
+Height    --> Givenchy:  0
+Height    --> AP:  2
+Height    --> LV:  0
+Height    --> Ferrari:  0
+Height    --> McLaren:  0
+Height    --> Cartier:  1
+T == T2?     equal
+T != first?  not equal
+T == dup?    not equal
+                Rolex
+            Patek
+        Omega
+                Cartier
+            AP
+---------------------------------------------------------------
+Initial data:
+   
