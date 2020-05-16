@@ -1,0 +1,33 @@
+10
+Taco bell
+Dairy Queen
+McDonald's
+Habit Burger and Grill
+Five Guys
+Taco Del Mar
+Panda Express
+Chipotle
+Dick's
+Chick-fil-A
+1   5  15
+1   9  85
+2  10  20
+3   2   5
+3   4  95
+4  10  35
+5   7  25
+5   3  25
+6   2  80
+6   1  90
+6  10  80
+7   8  75
+7   6  80
+8   9  75
+9   3   5
+9   4  90
+9   8  30
+10  6  80
+10  9  30
+10  1  30
+10  5 100
+0 0 0
