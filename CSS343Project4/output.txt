@@ -1,0 +1,140 @@
+--------------------------------------------------------------
+Inventory for AMC DVD SHOP
+--------------------------------------------------------------
+IN/OUT +TITLE+                *DIRECTOR*         #MO##YEAR# *ACTOR* 
+====================================================================
+10  0   Holiday                George Cukor       9   1938  Cary Grant
+10  0   Holiday                George Cukor       9   1938  Katherine Hepburn
+10  0   Gone With the Wind     Victor Fleming     2   1939  Clark Gable
+10  0   The Wizard of Oz       Victor Fleming     7   1939  Judy Garland
+10  0   Gone With the Wind     Victor Fleming     2   1939  Vivien Leigh
+10  0   The Philadelphia Story George Cukor       5   1940  Cary Grant
+10  0   The Philadelphia Story George Cukor       5   1940  Katherine Hepburn
+10  0   The Maltese Falcon     John Huston        10  1941  Humphrey Bogart
+10  0   Casablanca             Michael Curtiz     8   1942  Humphrey Bogart
+10  0   Casablanca             Michael Curtiz     8   1942  Ingrid Bergman
+10  0   It's a Wonderful Life  Frank Capra        11  1946  Donna Reed
+10  0   It's a Wonderful Life  Frank Capra        11  1946  James Steward
+10  0   A Clockwork Orange     Stanley Kubrick    2   1971  Malcolm McDowell
+10  0   Harold and Maude       Hal Ashby          3   1971  Ruth Gordon
+
+IN/OUT +TITLE+                *DIRECTOR*         #YEAR#  
+====================================================================
+10  0   Good Morning Vietnam   Barry Levinson     1988 
+10  0   Unforgiven             Clint Eastwood     1992 
+10  0   Good Will Hunting      Gus Van Sant       2000 
+10  0   Silence of the Lambs   Jonathan Demme     1991 
+10  0   Dogfight               Nancy Savoca       1991 
+10  0   King of Hearts         Phillippe De Broca 1967 
+10  0   Schindler's List       Steven Spielberg   1993 
+
+IN/OUT +TITLE+                *DIRECTOR*         #YEAR#  
+====================================================================
+10  0   Annie Hall             Woody Allen        1977 
+10  0   Fargo                  Joel Coen          1996 
+10  0   National Lampoon's Animal House John Landis        1978 
+10  0   Pirates of the Caribbean Gore Verbinski     2003 
+10  0   Sleepless in Seattle   Nora Ephron        1993 
+10  0   When Harry Met Sally   Rob Reiner         1989 
+10  0   You've Got Mail        Nora Ephron        1998 
+
+ **** Customer: 1000 Mouse, Minnie
+No Transactions for Customer
+
+ **** Customer: 5000 Frog, Freddie
+No Transactions for Customer
+
+ **** Customer: 8000 Wacky, Wally
+No Transactions for Customer
+
+ERROR: Z not Found!
+ERROR: Invalid Action Code X
+ERROR: Invalid Action Code Z
+Error: Invalid Customer ID 1234
+ERROR: Invalid Movie Request!Bogus Title
+ERROR: Invalid Code Z
+Out Of Stock: Harold and Maude
+Out Of Stock: Harold and Maude
+Out Of Stock: Harold and Maude
+ERROR: Invalid Movie Request!Bogus Title
+--------------------------------------------------------------
+Inventory for AMC DVD SHOP
+--------------------------------------------------------------
+IN/OUT +TITLE+                *DIRECTOR*         #MO##YEAR# *ACTOR* 
+====================================================================
+ 9  1   Holiday                George Cukor       9   1938  Cary Grant
+10  0   Holiday                George Cukor       9   1938  Katherine Hepburn
+10  0   Gone With the Wind     Victor Fleming     2   1939  Clark Gable
+10  0   The Wizard of Oz       Victor Fleming     7   1939  Judy Garland
+10  0   Gone With the Wind     Victor Fleming     2   1939  Vivien Leigh
+ 9  1   The Philadelphia Story George Cukor       5   1940  Cary Grant
+ 9  1   The Philadelphia Story George Cukor       5   1940  Katherine Hepburn
+ 9  1   The Maltese Falcon     John Huston        10  1941  Humphrey Bogart
+10  0   Casablanca             Michael Curtiz     8   1942  Humphrey Bogart
+10  0   Casablanca             Michael Curtiz     8   1942  Ingrid Bergman
+10  0   It's a Wonderful Life  Frank Capra        11  1946  Donna Reed
+10  0   It's a Wonderful Life  Frank Capra        11  1946  James Steward
+ 9  1   A Clockwork Orange     Stanley Kubrick    2   1971  Malcolm McDowell
+ 0  10  Harold and Maude       Hal Ashby          3   1971  Ruth Gordon
+
+IN/OUT +TITLE+                *DIRECTOR*         #YEAR#  
+====================================================================
+ 9  1   Good Morning Vietnam   Barry Levinson     1988 
+ 9  1   Unforgiven             Clint Eastwood     1992 
+ 9  1   Good Will Hunting      Gus Van Sant       2000 
+ 9  1   Silence of the Lambs   Jonathan Demme     1991 
+ 8  2   Dogfight               Nancy Savoca       1991 
+ 9  1   King of Hearts         Phillippe De Broca 1967 
+ 9  1   Schindler's List       Steven Spielberg   1993 
+
+IN/OUT +TITLE+                *DIRECTOR*         #YEAR#  
+====================================================================
+ 9  1   Annie Hall             Woody Allen        1977 
+ 9  1   Fargo                  Joel Coen          1996 
+ 9  1   National Lampoon's Animal House John Landis        1978 
+10  0   Pirates of the Caribbean Gore Verbinski     2003 
+ 9  1   Sleepless in Seattle   Nora Ephron        1993 
+ 9  1   When Harry Met Sally   Rob Reiner         1989 
+ 9  1   You've Got Mail        Nora Ephron        1998 
+
+ **** Customer: 1000 Mouse, Minnie
+DVD Borrow: Good Morning Vietnam   Barry Levinson     1988 
+DVD Borrow: The Philadelphia Story George Cukor       5   1940  Katherine Hepburn
+DVD Borrow: Good Will Hunting      Gus Van Sant       2000 
+DVD Borrow: The Philadelphia Story George Cukor       5   1940  Cary Grant
+DVD Borrow: Harold and Maude       Hal Ashby          3   1971  Ruth Gordon
+
+
+ **** Customer: 1111 Mouse, Mickey
+DVD Borrow: A Clockwork Orange     Stanley Kubrick    2   1971  Malcolm McDowell
+DVD Borrow: Harold and Maude       Hal Ashby          3   1971  Ruth Gordon
+DVD Borrow: The Maltese Falcon     John Huston        10  1941  Humphrey Bogart
+DVD Borrow: Holiday                George Cukor       9   1938  Cary Grant
+
+
+ **** Customer: 5000 Frog, Freddie
+DVD Borrow: Harold and Maude       Hal Ashby          3   1971  Ruth Gordon
+DVD Return: Harold and Maude       Hal Ashby          3   1971  Ruth Gordon
+DVD Borrow: Harold and Maude       Hal Ashby          3   1971  Ruth Gordon
+DVD Return: Harold and Maude       Hal Ashby          3   1971  Ruth Gordon
+DVD Borrow: Harold and Maude       Hal Ashby          3   1971  Ruth Gordon
+DVD Return: Harold and Maude       Hal Ashby          3   1971  Ruth Gordon
+DVD Borrow: Harold and Maude       Hal Ashby          3   1971  Ruth Gordon
+
+
+ **** Customer: 8000 Wacky, Wally
+DVD Borrow: You've Got Mail        Nora Ephron        1998 
+DVD Return: You've Got Mail        Nora Ephron        1998 
+DVD Borrow: Harold and Maude       Hal Ashby          3   1971  Ruth Gordon
+DVD Borrow: Harold and Maude       Hal Ashby          3   1971  Ruth Gordon
+DVD Borrow: National Lampoon's Animal House John Landis        1978 
+
+
+ **** Customer: 8888 Pig, Porky
+DVD Borrow: Annie Hall             Woody Allen        1977 
+DVD Borrow: When Harry Met Sally   Rob Reiner         1989 
+DVD Borrow: Silence of the Lambs   Jonathan Demme     1991 
+DVD Borrow: Dogfight               Nancy Savoca       1991 
+DVD Borrow: Harold and Maude       Hal Ashby          3   1971  Ruth Gordon
+
+
