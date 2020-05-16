@@ -1,0 +1,87 @@
+A Sparse Implementation of ADT Polynomial 
+ 
+
+Purpose
+
+This programming assignment exercises dynamic memory allocation, pointer operations, and copy constructor design through designing a doubly-linked circular list with a dummy header. Using such a list, you will implement an ADT polynomial.
+
+ 
+
+ADT Polynomial
+
+polynomial.hPreview the document lists  the specification of our ADT polynomial.
+
+ 
+
+A Sparse Polynomial Implementation Using A List
+
+The ADT polynomial can be implemented using a doubly-linked circular list that stores only the terms with nonzero coefficients. For example, you can represent the polynomial p1 = -3x7 + 4x3 + 9 as follows.
+
+   
+
+ polynomial.png
+
+ 
+
+ To implement the ADT polynomial with this list, you must add the following members in your polynomial class.
+
+default constructor
+
+When construct a Polynomial object without parameter, you should initialize the size as zero, and should construct a dummy header. Note that your polynomial is doubly-linked circular list.
+
+copy constructor
+
+Takes care of a deep copy of the original link representation.
+
+destructor
+
+Takes care of de-allocating all link nodes to the system.
+
+struct Term
+
+This structure must be defined as a class private struct and include double coeffocient and int power as well as prev and next pointers, each pointing to a previous and a next Term node
+
+insert( pos, newCoefficient, power )
+
+This private member function inserts a new Term node with newCoefficient and power just before the existing Term pointed by the pos pointer. The insert function will be used bychangeCoefficient to insert a new term.
+
+remove( pos )
+
+This private member function deletes the existing Term node pointed by the pos pointer. The remove function will be used by changeCoefficient to delete an existing term when its coefficient is changed in 0. In addition, it will be used by a destructor and the operator= to de-allocates all Term nodes.
+
+ 
+
+You can download polynomial.hPreview the document (It is in Files/Programs/program1/)
+
+ 
+
+ 
+
+ Statement of Work
+
+Design and implement the Polynomial class to match our specification outlined in polynomial.h. Name the implementation file as polynomial.cpp. The following is an example main() you in "driver.cppPreview the document". Note that you can modify polynomial.h if necessary. But it still should be able to work with the given driver.cppPreview the document.
+
+However, when turning in, you must code your own "PolynomialDriver.cpp" to test all your Polynomial number functions. Your assignments should have more comments and outputs than those samples. Proper comments should include all of the followings (at least): See Coding Standards for more details:
+
+what this method does
+preconditions
+postconditions
+ 
+
+Note that your Polynomial class is named with upper case, although your file name is lower case.
+
+driver.cpp Preview the documentand the output filePreview the document are also available (Files/Programs/program1/)
+
+ 
+
+ 
+
+What to submit (Do not zip)
+
+Clearly state any other assumptions you make. Assumptions about main are placed in the beginning comment block of your program. Assumptions about Polynomial members are placed in the class definition (.h file). and implementation file (.cpp) What you have to turn in includes: 
+
+output file tested with the given driver.cppPreview the document
+polynomialDriver.cpp (your own driver file)
+myOutput.txt which is the output of polynomialDriver.cpp
+polynomial.h, and (add more comments if necessary)
+polynomial.cpp (implement yourself and give full comments for each method)
