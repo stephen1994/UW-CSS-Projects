@@ -1,0 +1,77 @@
+map1994@DESKTOP-7UV4U6D:/mnt/c/Assignment/CSS430/final-src-osc10e/ch5/project/posix$ ./fcfs schedule.txt
+-------------------------------Scheduling FCFS-------------------------------
+Running task = [T1] [4] [20] for 20 units.
+Running task = [T2] [3] [25] for 25 units.
+Running task = [T3] [3] [25] for 25 units.
+Running task = [T4] [5] [15] for 15 units.
+Running task = [T5] [5] [20] for 20 units.
+Running task = [T6] [1] [10] for 10 units.
+Running task = [T7] [3] [30] for 30 units.
+Running task = [T8] [10] [25] for 25 units.
+------------------------------------------------------------------------------------
+map1994@DESKTOP-7UV4U6D:/mnt/c/Assignment/CSS430/final-src-osc10e/ch5/project/posix$ ./sjf schedule.txt
+-------------------------------Scheduling SJF-------------------------------
+Running task = [T6] [1] [10] for 10 units.
+Running task = [T4] [5] [15] for 15 units.
+Running task = [T1] [4] [20] for 20 units.
+Running task = [T5] [5] [20] for 20 units.
+Running task = [T2] [3] [25] for 25 units.
+Running task = [T3] [3] [25] for 25 units.
+Running task = [T8] [10] [25] for 25 units.
+Running task = [T7] [3] [30] for 30 units.
+------------------------------------------------------------------------------------
+map1994@DESKTOP-7UV4U6D:/mnt/c/Assignment/CSS430/final-src-osc10e/ch5/project/posix$ ./priority schedule.txt
+-------------------------------Scheduling Priority-------------------------------
+Running task = [T8] [10] [25] for 25 units.
+Running task = [T4] [5] [15] for 15 units.
+Running task = [T5] [5] [20] for 20 units.
+Running task = [T1] [4] [20] for 20 units.
+Running task = [T2] [3] [25] for 25 units.
+Running task = [T3] [3] [25] for 25 units.
+Running task = [T7] [3] [30] for 30 units.
+Running task = [T6] [1] [10] for 10 units.
+------------------------------------------------------------------------------------
+map1994@DESKTOP-7UV4U6D:/mnt/c/Assignment/CSS430/final-src-osc10e/ch5/project/posix$ ./rr schedule.txt
+-------------------------------Scheduling Round-Robin-------------------------------
+Running task = [T1] [4] [20] for 10 units.
+Running task = [T2] [3] [25] for 10 units.
+Running task = [T3] [3] [25] for 10 units.
+Running task = [T4] [5] [15] for 10 units.
+Running task = [T5] [5] [20] for 10 units.
+Running task = [T6] [1] [10] for 10 units.
+Running task = [T7] [3] [30] for 10 units.
+Running task = [T8] [10] [25] for 10 units.
+Running task = [T1] [4] [10] for 10 units.
+Running task = [T2] [3] [15] for 10 units.
+Running task = [T3] [3] [15] for 10 units.
+Running task = [T4] [5] [5] for 5 units.
+Running task = [T5] [5] [10] for 10 units.
+Running task = [T7] [3] [20] for 10 units.
+Running task = [T8] [10] [15] for 10 units.
+Running task = [T2] [3] [5] for 5 units.
+Running task = [T3] [3] [5] for 5 units.
+Running task = [T7] [3] [10] for 10 units.
+Running task = [T8] [10] [5] for 5 units.
+------------------------------------------------------------------------------------
+map1994@DESKTOP-7UV4U6D:/mnt/c/Assignment/CSS430/final-src-osc10e/ch5/project/posix$ ./priority_rr schedule.txt
+----------------------------Scheduling Priority Round-Robin--------------------------
+Running task = [T8] [10] [25] for 10 units.
+Running task = [T8] [10] [15] for 10 units.
+Running task = [T8] [10] [5] for 5 units.
+Running task = [T4] [5] [15] for 10 units.
+Running task = [T5] [5] [20] for 10 units.
+Running task = [T4] [5] [5] for 5 units.
+Running task = [T5] [5] [10] for 10 units.
+Running task = [T1] [4] [20] for 10 units.
+Running task = [T1] [4] [10] for 10 units.
+Running task = [T2] [3] [25] for 10 units.
+Running task = [T3] [3] [25] for 10 units.
+Running task = [T7] [3] [30] for 10 units.
+Running task = [T2] [3] [15] for 10 units.
+Running task = [T3] [3] [15] for 10 units.
+Running task = [T7] [3] [20] for 10 units.
+Running task = [T2] [3] [5] for 5 units.
+Running task = [T3] [3] [5] for 5 units.
+Running task = [T7] [3] [10] for 10 units.
+Running task = [T6] [1] [10] for 10 units.
+------------------------------------------------------------------------------------
